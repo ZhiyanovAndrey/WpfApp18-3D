@@ -9,7 +9,7 @@
     <Grid>
         <Viewport3D Name="viewport3D1">
             <Viewport3D.Camera>
-                <PerspectiveCamera x:Name="camMain" Position="6 5 4" LookDirection="-6 -5 -4">
+                <PerspectiveCamera x:Name="camMain" Position="5 3 3" LookDirection="-5 -3 -4">
                 </PerspectiveCamera>
             </Viewport3D.Camera>
             <ModelVisual3D>
@@ -23,7 +23,7 @@
                     <GeometryModel3D>
                         <GeometryModel3D.Geometry>
                             <MeshGeometry3D x:Name="meshMain"
-                                Positions="0 0 0  2 0 0  0 1 0  2 1 0  0 0 1  2 0 1  0 1 1  2 1 1"
+                                Positions="0 0 0  2 0 0  0 2 0  2 2 0  0 0 1  2 0 1  0 2 1  2 2 1"
                                 TriangleIndices="2 3 1  2 1 0  7 1 3  7 5 1  6 5 7  6 4 5  6 2 0  2 0 4  2 7 3  2 6 7  0 1 5  0 5 4">
                             </MeshGeometry3D>
                         </GeometryModel3D.Geometry>
